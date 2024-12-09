@@ -9,8 +9,8 @@ COPY . .
 
 ENV APP_ENV=production
 ENV APP_PORT=8080
-ENV MODEL_URL="[MODEL URL]"
-ENV PROJECT_ID="[PROJECT ID]"
+ENV MODEL_URL="https://storage.googleapis.com/model-submission1/submissions-model/model.json"
+ENV PROJECT_ID="submissionmlgc-kawaramahmudi12"
 
 CMD [ "npm", "start" ]
 
